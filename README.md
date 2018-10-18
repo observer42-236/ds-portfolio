@@ -1,10 +1,9 @@
 # Dashboards
 You can find here dashboard screenshots and code samples made by me.
 <p>
-Automated data filling was done using <b> spark/scala +  jenkins + pg db </b>
-PHP used for backend.
+Automated data filling was done using <b> spark/scala +  jenkins + pg db </b></p>
+<p> PHP used for backend.
 </p>
-
 <h3> Web Tool using highcharts.js </h3>
 <a href="https://ibb.co/dxGE1L"><img src="https://preview.ibb.co/hSLwFf/Screen-Shot-2018-10-15-at-3-22-39-PM.png" alt="Weeb tool using highcharts.js" border="0"></a>
 
