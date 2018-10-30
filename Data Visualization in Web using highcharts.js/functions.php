@@ -1,7 +1,7 @@
 <?php include 'main_new.php';
   ini_set('display_errors', 1);
 error_reporting(~0);
-  $connection = pg_connect ("host=173.244.222.44 dbname=dwh user=dwh password=4F51hnXVMZoDcHrLvf");
+  $connection = pg_connect ("host=192.168.0.0 dbname=db user=db password=12345");
 
   // $month= "select extract(month from max(month)) as month_max,extract(month from min(month)) as month_min from (select CAST(month AS date) as month from weeeekly) as a";
 // $month = pg_query ($connection , $month);
@@ -25,7 +25,7 @@ function monthNumToName($monthnum) {
  };  
 
 
-$connection = pg_connect ("host=173.244.222.44 dbname=dwh user=dwh password=4F51hnXVMZoDcHrLvf");
+$connection = pg_connect  ("host=192.168.0.0 dbname=db user=db password=12345");
 
 function num_format($full_num)
 {
