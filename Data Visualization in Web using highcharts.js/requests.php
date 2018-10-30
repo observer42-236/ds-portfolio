@@ -6,7 +6,7 @@ header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
 header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
 header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
-  $connection = pg_connect ("host=173.244.222.44 dbname=dwh user=dwh password=4F51hnXVMZoDcHrLvf");
+  $connection = pg_connect  ("host=192.168.0.0 dbname=db user=db password=12345");
    
   $query_dates="select distinct date from hashtag_dash_new order by date";
 
