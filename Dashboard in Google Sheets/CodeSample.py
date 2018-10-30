@@ -19,7 +19,7 @@ import psycopg2
 gc = pygsheets.authorize(outh_file='/Users/nanedadayan/client_secret_8.json')
 query1="Select * from public.searched_clicked_all_expanded_sources"
 from sqlalchemy import create_engine
-engine = create_engine('postgresql://dwh:4F51hnXVMZoDcHrLvf@173.244.222.44:5432/dwh')
+engine = create_engine('postgresql://user:user@192.168.0.0:12345/user')
 df_searches_sources_1 = pd.DataFrame(pd.read_sql_query(query1,con=engine))
 df_searches_sources = pd.DataFrame(pd.read_sql_query(query1,con=engine))
 df_searches_sources=df_searches_sources[df_searches_sources["date1"]=="2018-01-01"]
