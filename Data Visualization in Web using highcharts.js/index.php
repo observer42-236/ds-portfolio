@@ -141,7 +141,7 @@ font-weight: bold;
   <tr><th colspan="15" style="text-align: center;">Top 20 Tags </th></tr>
   <tr><th>Top</th>
 <?php 
-  $connection = pg_connect ("host=173.244.222.44 dbname=dwh user=dwh password=4F51hnXVMZoDcHrLvf");
+  $connection = pg_connect ("host=192.168.0.0 dbname=db user=user password=12345");
    // TO_CHAR(NOW() :: DATE, 'Mon dd, yyyy');
   $query_tops="select * from hashtag_tops order by  top asc";
   $query_tops_dates="select TO_CHAR(date,'Mon dd') from (select to_date(column_name, 'MonDDYYYY') as date from (SELECT *
