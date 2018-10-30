@@ -26,7 +26,7 @@
   <tbody>
 
 <?php 
-  $connection = pg_connect ("host=173.244.222.44 dbname=dwh user=dwh password=4F51hnXVMZoDcHrLvf");
+  $connection = pg_connect ("host=192.168.0.0 dbname=db user=db password=12345");
    // TO_CHAR(NOW() :: DATE, 'Mon dd, yyyy');
   $query_details="select Row_Number() over(order by sum(clicks) desc) as rank, tag_name, platform, to_char(sum(views), 'FM999,999,999,990D')  as views, to_char(sum(clicks),'FM999,999,999,990D') as clicks,  to_char(sum(social_interactions),'FM999,999,999,990D') as social_interactions,to_char(sum(ed),'FM999,999,999,990D') as ED, concat(round((sum(clicks)/sum(views))*100,2),'%') as ctr,
   concat( TO_CHAR(min(date),'Mon dd'),'-',TO_CHAR(max(date),'Mon dd')) as date 
