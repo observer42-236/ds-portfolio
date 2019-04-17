@@ -16,4 +16,4 @@ Automated data filling was done using <b> spark/scala +  jenkins + pg db </b></p
 <h3> Automated Report using google sheets, python, scala/spark </h3>
 <a href="https://preview.ibb.co/m6T580/Screen-Shot-2018-10-15-at-3-25-20-PM.png"><img src="https://preview.ibb.co/m6T580/Screen-Shot-2018-10-15-at-3-25-20-PM.png" alt="automated report using google sheets" border="0"></a>
 
-<a href="https://preview.ibb.co/kDEdT0/Screen-Shot-2018-10-15-at-3-28-43-PM.png"><img src="https://preview.ibb.co/kDEdT0/Screen-Shot-2018-10-15-at-3-28-43-PM.png" alt="automated report using google sheets" border="0"></a>
+<a href="https://ibb.co/kDEdT0/Screen-Shot-2018-10-15-at-3-28-43-PM.png"><img src="https://preview.ibb.co/kDEdT0/Screen-Shot-2018-10-15-at-3-28-43-PM.png" alt="automated report using google sheets" border="0"></a>
