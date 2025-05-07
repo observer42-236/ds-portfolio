@@ -52,31 +52,12 @@ __[See it here: Women in Workforce](https://prodlytic.io/tool/hosted-dashboards/
 An interactive data visualization dashboard that explores the experiences and challenges of women in the modern workforce.
 
 
-## Luvu Family App
-
+## Luvu Family App [beta]
+__[Luvu Family](https://luvu.family)__
 ![Family App](assets/luvu_family_app.png)
+
 
 A mobile application designed to strengthen family connections through shared activities and communication.
 
-### Project Overview
 
-- **Role**: Lead Data Scientist
-- **Scope**: End-to-end data science support from app concept to post-launch optimization
-- **Impact**: Contributed to 45% increase in user retention through data-driven feature development
-
-### Key Contributions
-
-- Designed engagement tracking system using behavioral analytics
-- Implemented recommendation algorithms for personalized family activities
-- Created retention prediction models to identify at-risk users
-- Developed A/B testing framework for feature optimization
-- Built comprehensive analytics dashboard for product team
-
-### Technologies Used
-
-- Python (pandas, scikit-learn, TensorFlow)
-- SQL for data extraction and analysis
-- Firebase Analytics integration
-- Custom event tracking implementation
-- Automated reporting and alerting system
 
